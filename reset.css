@@ -1,0 +1,62 @@
+/* Reset básico de CSS */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html {
+    height: 100%;
+  }
+  
+  body {
+    font-family: Arial, sans-serif; /* Fonte padrão */
+    line-height: 1.6;
+    padding: 0;
+    margin: 0;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-size: 100%;
+    font-weight: normal;
+  }
+  
+  /* ul, ol {
+    list-style: none;
+  } */
+  
+  a {
+    text-decoration: none;
+    color: inherit; /* Herda a cor do texto pai */
+  }
+  
+  table {
+    border-collapse: collapse;
+    border-spacing: 0;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  button {
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  input, textarea, select {
+    font: inherit;
+  }
+  
+  fieldset {
+    border: none;
+  }
+  
+  legend {
+    display: none; /* Para esconder legendas de fieldsets, se desejado */
+  }
+  

@@ -1,0 +1,349 @@
+@media screen and (max-width:999px){  
+    body{
+        overflow-x: hidden; 
+    }
+    .logo img{
+        margin-left: 140px;
+    }    
+    #compra{
+        display: flex;
+        justify-content: space-between;
+        justify-content: center;
+        align-items: center;
+        padding: 4px;
+        margin-right: 1%;
+        margin-left: 1%; 
+    }
+    .navigation {
+        position: relative;
+        display:contents;
+    }
+    .menu_mobile {
+        width: 30px;
+        height: 30px;
+        background-color: #fdf8f8;
+        border-radius: 50%;
+        display: block;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        color: rgb(2, 30, 119);
+        font-size: 18px;
+        text-align:center;
+        margin-left:90px;
+      }
+      .menu_mobile::after {
+        content: "...";
+      }
+      .menu {
+        display: none;
+        position: absolute;
+        top: 112px;
+        right: 0px;
+        background-color: #002e57;       
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        border-radius: 5px;
+        width:100px;
+      }
+      .menu a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0px;
+        text-decoration: none;
+        color: #fefdfc;
+        border-bottom: 1px solid #ddd;
+      }
+      .menu a:last-child {
+        border-bottom: none;
+      }
+      .menu a:hover {
+        background-color: #ffffff;
+      }
+
+        /* Mostra o menu quando o botão for clicado */
+    .navigation.open .menu {
+        display: block;
+      }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    .TopoPrincipal{
+        margin-top: 20px;
+        margin-bottom: 0px;        
+    }
+    .topo {
+        margin-top: 90px;
+    }
+    .TopoPrincipal .subtitulo {
+        letter-spacing: 0mm;
+        margin-left: 110px;
+        font-size: 15px;
+        letter-spacing: 0mm;   
+        color: rgb(255, 149, 0);       
+    }
+    .TopoPrincipal .titulo{
+        font-size: 15px;
+        letter-spacing: 0mm;
+        margin-left: 97px;
+        color: rgb(135, 66, 2);        
+   }  
+   .TopoImg .img{
+        margin: 7px;
+   }
+   .meio{
+    width: 98%;
+    display: block;   
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+   }
+   .meio .card_principal img{    
+    height: 30rem;
+    margin-top: 200px;   
+   }
+   .meio .TituloTipo{
+    display:flex;
+    margin: auto;
+    margin-top: 240px;
+    justify-content: center;
+    align-items: center;     
+    width: 100%;
+    background: none;    
+   }
+   .meio .TituloTipo .titulo{  
+    font-size: 20px;
+    letter-spacing: 0mm;   
+    margin: 60px 30px;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    font-family: minhafonte2;     
+   }
+   .meio .TituloTipo .titulo2{
+    font-weight: 500;    
+   }
+   .banner1{
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: 100%;    
+    height: 350px;
+    margin-top: 20px;   
+   }
+   .banner1 img{
+    width: 400px;
+    height: 210px;     
+    margin: auto;
+   }
+   .banner2{
+    width: 100%;
+    height: 350px; 
+    margin-top: 120px;
+   }
+   .banner2 p{
+    font-size: 35px;
+   }
+   .banner2 img{
+    width: 400px;
+    height: 210px; 
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+   }
+   .banner3{
+    width: 100%;
+    height: 350px; 
+    margin-top: 120px;
+   }
+   .banner3 img{
+    width: 400px;
+    height: 210px; 
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+   }
+   .banner4{
+    width: 100%;
+    height: 350px; 
+    margin-top: 120px;
+   }
+   .banner4 img{
+    width: 400px;
+    height: 210px; 
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+   }
+   .banner5{
+    width: 100%;
+    height: 350px; 
+    margin-top: 120px;
+   }
+   .banner5 img{
+    width: 400px;
+    height: 210px; 
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+   }
+   .banner6{
+    width: 100%;
+    height: 350px; 
+    margin-top: 120px;
+   }
+   .banner6 img{
+    width: 400px;
+    height: 210px; 
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+   }
+   .linha{
+    margin-top: 50px;
+   }
+   .contato{
+    display:block;  
+    margin: auto;
+    margin-top: 120px;
+    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
+    width: 98%;
+   }
+   .promoção{      
+    margin-left: 0;
+    width: 100%;
+    height: 200px;    
+    justify-content: center;
+    align-items: center;     
+   }
+   .promoção #p1{        
+    padding: 40px 20px 10px;
+    font-size:29px;
+    font-weight: 500;
+    font-family: minhafonte2;
+    margin: auto;
+    justify-content: center;
+    align-items: center;     
+    color: rgb(1, 1, 1);    
+   }
+   .promoção #p2{   
+    font-size:29px;
+    font-weight: 500;
+    font-family: minhafonte2;
+    margin: auto; 
+    justify-content: center;
+    align-items: center;   
+    color: rgb(0, 0, 0);
+   }
+
+                      /* ESTILIZAÇÃO DO FORMULÁRIO */
+                      
+   .formulario{
+    width: 100%;
+    height: 600px;   
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 6vh;
+   }
+   .formulario form{
+    height: 490px;
+   }
+   .formulario form p{   
+    font-size: 12.6px;
+    
+   }
+
+                        /* ESTILIZAÇÃO DO FOOTER */
+    .total_footer{
+        height: 476px;
+        margin-top: 90px;
+        /* border: 2px solid red; */
+        padding-top: 20px;
+        margin-bottom: 40px;
+    }
+    footer{
+        /* border: 2px solid red; */
+        height: 600px;
+        margin-top: 0;
+        margin-bottom: 0px;
+    } 
+    .total_footer .Identidade{
+        padding-left: 30px;
+    } 
+    .total_footer .Informações{
+        padding-left: 10px;
+
+
+    }
+    footer .blog{             
+        height: 350px;       
+    }
+    .blog .chamada_blog{
+        padding-top: 100px;
+    }
+    .blog input{       
+        width:400px;      
+    }
+    .Segurança{
+        display: none;
+    }
+    .Midias{
+        display: none;
+    }
+    .coopring {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        margin: auto;       
+        display: flex;
+    }
+    .coopring p{
+       font-family:minhafonte2;
+        font-size: 27px; 
+    }
+ 
+
+  
+ 
+
+  
+    
+
+ 
+
+                          
+
+
+  
+}
+@media screen and (max-width:410px) and (min-width:300px){
+    .TituloTipo{
+        margin-top: 80px;
+        width: 200rem;
+        height: 50px;
+   }
+  
+
+}
+
+             
+
+
+
+
+
+  
+
+
